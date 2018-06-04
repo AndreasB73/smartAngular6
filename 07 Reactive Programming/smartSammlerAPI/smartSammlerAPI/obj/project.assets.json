@@ -13714,11 +13714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Classes\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\smartSammlerAPI.csproj",
+      "projectUniqueName": "D:\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\smartSammlerAPI.csproj",
       "projectName": "smartSammlerAPI",
-      "projectPath": "D:\\Classes\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\smartSammlerAPI.csproj",
+      "projectPath": "D:\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\smartSammlerAPI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Classes\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\obj\\",
+      "outputPath": "D:\\smartAngular6\\07 Reactive Programming\\smartSammlerAPI\\smartSammlerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

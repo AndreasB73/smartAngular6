@@ -302,6 +302,9 @@ export class TypesComponent implements OnInit {
     });
     console.log("total is : " + total);
 
+    var total1 = arr.reduce((a, b) => a + b, 0);
+    var total2 = arr.reduce((a, b) => a + b);
+
     var rockets = [
       { country: "Russia", launches: 32 },
       { country: "US", launches: 23 },
