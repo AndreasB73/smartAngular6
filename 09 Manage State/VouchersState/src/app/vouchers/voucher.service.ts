@@ -18,13 +18,9 @@ export class VouchersService {
       .get<Voucher>(environment.apiUrl + "api/vouchers/" + id);
   }
 
-  insertVoucher(voucher: Voucher): void {
-    this.httpClient
-      .post<Voucher>(environment.apiUrl + "api/vouchers", voucher)
-      .subscribe(
-        () => console.log(`voucher with id ${voucher.ID} inserted`),
-        err => console.log(err)
-      );
+  insertVoucher(voucher: Voucher): Observable<any> {
+    return this.httpClient
+      .post<Voucher>(environment.apiUrl + "api/vouchers", voucher);      
   }
 
   updateVoucher(voucher: Voucher): void {

@@ -1,0 +1,7 @@
+{
+  "siteUrl": "http://sp2016",
+  "strategy": "OnpremiseUserCredentials",
+  "username": "Administrator",
+  "domain": "SPDOM",
+  "password": "914ce076ed6102ad9dc709687887d22481cdb66fb5bb4364f5a60344a738ef7898e3181b2e53330286dbf6b72f4a67b28DSXPmXPBDcrvZHPtxfWrw=="
+}

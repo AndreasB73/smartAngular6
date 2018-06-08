@@ -35,7 +35,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let v of vouchers" (click)="showVoucher(v.ID)">
+        <tr *ngFor="let v of vouchers">
           <td>{{v.Date | date:'shortDate'}}</td>
           <td>{{v.Text}}</td>
           <td class="rightCell">{{v.Amount | currency:'EUR':true}} </td>

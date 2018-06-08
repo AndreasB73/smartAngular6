@@ -44,8 +44,15 @@ export class DataStoreService {
   }
 
   insertVoucher(v: Voucher): any {
-    throw new Error("Method not implemented.");
+    this.vs.insertVoucher(v).subscribe(
+      () => {
+        console.log(`voucher with id ${v.ID} inserted`);
+        this.initVouchers();
+      },
+      err => console.log(err)
+    );    
   }
+
   updateVoucher(v: Voucher): any {
     throw new Error("Method not implemented.");
   }

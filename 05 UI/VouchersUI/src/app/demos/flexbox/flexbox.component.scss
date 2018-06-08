@@ -18,7 +18,7 @@
 .flex-item {
   flex-grow: 1;
   min-width: 200px;
-  height: 100px;
+  min-height: 100px;
   margin: 5px;
   background: $cmdBackground;
   color: white;
