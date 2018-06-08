@@ -17,9 +17,10 @@ export class AccountsComponent implements OnInit {
   constructor(private router: Router, private as: AccountService) {}
 
   ngOnInit() {
+    // Convert Sharepoint Result to BalanceAccount
     this.as.getShpAccounts().then(
-      // Convert Sharepoint Result to BalanceAccount
-      data => (this.accounts = data.d.results.map(r => new BalanceAccount(r)))
+      data => (this.accounts = data.value.map(r => new BalanceAccount(r)))
+      //data => (this.accounts = data.value)
     );
   }
 

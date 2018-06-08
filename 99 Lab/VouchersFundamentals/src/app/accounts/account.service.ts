@@ -11,12 +11,12 @@ export class AccountService {
   constructor(private http: HttpClient) {}
 
   url =
-    "http://localhost:8080/_api/web/lists/getByTitle%28%27BalanceAccounts%27%29/Items";
+    "http://localhost:8080/_api/web/lists/getByTitle%28%27BalanceAccounts%27%29/Items?$select=ID, Name,Expense";
   accounts = null;
 
   getShpAccounts(): Promise<any> {
     let headers = new HttpHeaders();
-    headers = headers.append("Accept", "application/json;odata=verbose");
+    headers = headers.append("Accept", "application/json;odata=Nometadata");
 
     return this.http
       .get<any[]>(this.url, {
